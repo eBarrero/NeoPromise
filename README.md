@@ -1,5 +1,5 @@
 ### Overview
-NeoPromise is a Salesforce Apex library that simplifies handling synchronous processes in a sequential, ordered and limiteless manner, much like JavaScript Promises. It streamlines task orchestration by ensuring each step follows the correct sequence.
+NeoPromise is a Salesforce Apex code that simplifies handling synchronous processes in a sequential, ordered and limiteless manner. It streamlines task orchestration by ensuring each step follows the correct sequence.
 
 ### Features
 - **Sequential Execution**: Execute synchronous processes sequentially, following a specific order.
