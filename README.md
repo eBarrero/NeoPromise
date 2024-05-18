@@ -6,7 +6,7 @@ NeoPromise is a Salesforce Apex library that simplifies handling synchronous pro
 - **Clear Code Design**: Promotes code that's clean and easy to understand.
 
 ### Usage
-To start with NeoPromise, check out the examples in [NeoPromiseSample.cls](/main/force-app/main/default/classes/NeoPromiseSample.cls) and [NeoPromiseTest.cls](/main/force-app/main/default/classes/NeoPromiseTest.cls) for guidance on building promise chains and effectively handling errors.
+To start with NeoPromise, check out the examples in [NeoPromiseSample.cls](/NeoPromise/blob/main/force-app/main/default/classes/NeoPromiseSample.cls) and [NeoPromiseTest.cls](/blob/main/force-app/main/default/classes/NeoPromiseTest.cls) for guidance on building promise chains and effectively handling errors.
 
 ### Stages
 
@@ -142,7 +142,7 @@ public class NeoPromiseSample implements NeoPromiseInterface {
 ```
 ---
 **AFTER PROMISE IMPLEMENTATION**
-```
+```apex
 /**
  * @description          : Promise Class for testing
  * @author               : Neo
@@ -212,7 +212,7 @@ public class NeoPromiseSample implements NeoPromiseInterface {
 ```
 The test class emphasizes code clarity. Even though the promise flow is
 extensive and conditional, the goal is for it to be easily readable.
-```
+```apex
 /**
  * @description  Test class to cover all Promise clases 
  * @author: Eugenio Barrero
